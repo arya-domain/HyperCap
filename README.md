@@ -14,7 +14,7 @@ Note: A subset of the dataset has been provided for peer review. Upon acceptance
 
 ## Dataset
 
-We provide a subset of the dataset for the review process. The complete dataset will be made publicly available upon paper acceptance. Please refer to the `Datasets/` folder for examples.
+Complete Captioning Dataset is present along with the respective HSI data. Please refer to the `Datasets/` folder for examples.
 
 ---
 
