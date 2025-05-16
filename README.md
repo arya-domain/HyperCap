@@ -1,6 +1,6 @@
 # HyperCap
 
-**HyperCap: Hyperdimensional Representation Learning for Vision-Language Understanding and Captioning**
+**HyperCap: A Hyperspectral Imaging Dataset with Pixel-Level Captions and Benchmarking**
 
 ---
 
