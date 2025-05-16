@@ -1,6 +1,6 @@
 # HyperCap
 
-**HyperCap: Hyperdimensional Representation Learning for Vision-Language Understanding and Captioning in 3D Medical Data**
+**HyperCap: Hyperdimensional Representation Learning for Vision-Language Understanding and Captioning**
 
 ---
 
@@ -8,7 +8,7 @@
 
 This repository contains the codebase and model configurations for **HyperCap**
 
-Note: A subset of the dataset has been provided for peer review. Upon acceptance of the paper at NeurIPS, the full dataset, complete training code, and evaluation pipeline will be released under an MIT license.
+Note: A subset of the dataset has been provided for peer review. Upon acceptance of the paperS, the full dataset, complete training code, and evaluation pipeline will be released under an MIT license.
 
 ---
 
