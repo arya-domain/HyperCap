@@ -166,7 +166,7 @@ def plot_classification_map(gt, pred_map, map_file):
     plt.close(fig)
 
 def train_model(model, train_loader, val_loader, epochs=20, lr=0.0001, logger=None):
-    optimizer = optim.Adam(model.parameters(), lr=lr)
+    optimizer = optim.AdamW(model.parameters(), lr=lr)
     criterion = nn.CrossEntropyLoss()
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)

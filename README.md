@@ -14,7 +14,7 @@ Note: A subset of the dataset has been provided for peer review. Upon acceptance
 
 ## Dataset
 
-Complete Captioning Dataset is present along with the respective HSI data. Please refer to the `Datasets/` folder for examples.
+Complete Captioning Dataset is present along with the respective HSI data. Please refer to the `Datasets/` folder.
 
 ---
 
@@ -52,13 +52,13 @@ Note: Ensure that the subset data is correctly placed and the config file is set
 
 ## Captioning - Training Code
 
-For the Captioning task, we build upon and adapt the codebase of prior works. As of now, we have partially released the training code and visual encoder integration.
+For the Captioning task, we build upon and adapt the codebase of prior works. As of now, we have tutorial of the training code and visual encoder integration.
 
 The current setup includes:
 
 - The adapted vision backbone for captioning is located in the `captioning/` directory.
 - The code supports finetuning BLIP.
-- To train BLIP on captioning `python captioning_BLIP.py`
+- To train and understand how to integrate the Vision Encoder on BLIP Check - `Tutorial_Captioning_BLIP.py`
 
 Supported Vision-Language Captioning Models:
 
@@ -70,10 +70,10 @@ Supported Vision-Language Captioning Models:
 
 ---
 
-## Code and Dataset Release Plan
+## Code and Dataset
 
-- Subset provided for review (`Datasets/` folder)
-- Partial captioning code and adapted vision model released (`captioning/` folder)
+- Complete Dataset in `Datasets/` Folder
+- Tutorial captioning code and adapted vision model released (`captioning/vision_model.py` and `Tutorial_Captioning_BLIP.py`)
 - Full codebase, pretrained checkpoints, and complete dataset to be released upon acceptance of the paper
 
 ---
