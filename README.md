@@ -8,7 +8,7 @@
 
 This repository contains the codebase and model configurations for **HyperCap**
 
-Note: A subset of the dataset has been provided for peer review. Upon acceptance of the paperS, the full dataset, complete training code, and evaluation pipeline will be released under an MIT license.
+Note: A subset of the dataset has been provided for peer review. Upon acceptance of the paper, complete training code for captioning, and evaluation pipeline will be released under an MIT license.
 
 ---
 
@@ -67,6 +67,11 @@ Supported Vision-Language Captioning Models:
 - GIT: https://huggingface.co/docs/transformers/en/model_doc/git
 - VinVL: https://github.com/microsoft/Oscar
 - VisualBERT: https://huggingface.co/docs/transformers/en/model_doc/visual_bert
+
+## Captioning - Evaluation
+We utilized the Microsoft COCO Caption Evaluation for evaluating.
+
+- PyCocoEval - https://github.com/salaniz/pycocoevalcap
 
 ---
 
