@@ -4,13 +4,13 @@
 
 📄 **Paper**:
 <a href="https://arxiv.org/pdf/2505.12217" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Arxiv-logo.svg" alt="arXiv" width="24" height="24">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ArXiv_logo_2022.svg/768px-ArXiv_logo_2022.svg.png" alt="arXiv" width="24" height="24">
     arXiv:2505.12217
 </a>
 
 🌐 **Website**:
 <a href="http://hypercap.netlify.app" target="_blank">
-    <img src="https://www.netlify.com/img/global/favicons/favicon-32x32.png" alt="Website" width="24" height="24">
+    <img src="https://i.pinimg.com/736x/70/30/c0/7030c091d6c0f1443c778788f231bc4c.jpg" alt="Website" width="24" height="24">
     HyperCap Website
 </a>
 
