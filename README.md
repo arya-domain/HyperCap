@@ -2,11 +2,17 @@
   <img src="https://github.com/user-attachments/assets/aaa3a758-7f94-4eb3-b532-bfcd2c359064" width="400"/>
 </p>
 
+📄 **Paper**: [HyperCap Paper](https://arxiv.org/pdf/2505.12217)
+
+🌐 **Website**: [HyperCap Website](http://hypercap.netlify.app)
+
+💻 **Code & Dataset**: [HyperCap GitHub Repository](https://github.com/arya-domain/HyperCap)
 
 
 # HyperCap
 
 **HyperCap: A Hyperspectral Imaging Dataset with Pixel-Level Captions and Benchmarking**
+## HyperCap: A Benchmark Dataset for Hyperspectral Image Captioning
 
 ---
 
