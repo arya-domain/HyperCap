@@ -8,7 +8,7 @@
 
 This repository contains the codebase and model configurations for **HyperCap**
 
-Note: A subset of the dataset has been provided for peer review. Upon acceptance of the paper, complete training code for captioning, and evaluation pipeline will be released under an MIT license.
+Note: Complete Dataset has been provided for review. Complete training code for captioning and evaluation pipeline will be released in future under an MIT license.
 
 ---
 
@@ -46,7 +46,7 @@ To train the model for Vision-Language Classification:
 python train.py
 ```
 
-Note: Ensure that the subset data is correctly placed and the config file is set accordingly. Full training support will be enabled after acceptance.
+Note: Complete Dataset Released. Full training support will be enabled after infuture.
 
 ---
 
