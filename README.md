@@ -2,9 +2,18 @@
   <img src="https://github.com/user-attachments/assets/aaa3a758-7f94-4eb3-b532-bfcd2c359064" width="400"/>
 </p>
 
-[![Website](https://img.shields.io/badge/Project-Website-87CEEB)](http://hypercap.netlify.app)
-[![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/pdf/2505.12217)
-[![code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/arya-domain/HyperCap)
+<div align="center">
+  <a href="http://hypercap.netlify.app" style="margin: 0 20px;">
+    <img src="https://img.shields.io/badge/Project-Website-87CEEB" alt="Project Website">
+  </a>
+  <a href="https://arxiv.org/pdf/2505.12217" style="margin: 0 20px;">
+    <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv Paper">
+  </a>
+  <a href="https://github.com/arya-domain/HyperCap" style="margin: 0 20px;">
+    <img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github" alt="GitHub Repo">
+  </a>
+</div>
+
 
 
 
