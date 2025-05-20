@@ -2,17 +2,10 @@
   <img src="https://github.com/user-attachments/assets/aaa3a758-7f94-4eb3-b532-bfcd2c359064" width="400"/>
 </p>
 
-<div align="center">
-  <a href="https://arxiv.org/pdf/2505.12217" target="_blank" style="margin: 0 20px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/ArXiv_logo_2022.svg/768px-ArXiv_logo_2022.svg.png" alt="arXiv Paper" width="40" height="40">
-  </a>
-  <a href="http://hypercap.netlify.app" target="_blank" style="margin: 0 20px;">
-    <img src="https://i.pinimg.com/736x/70/30/c0/7030c091d6c0f1443c778788f231bc4c.jpg" alt="Website" width="40" height="40">
-  </a>
-  <a href="https://github.com/arya-domain/HyperCap" target="_blank" style="margin: 0 20px;">
-    <img src="https://github.githubassets.com/favicons/favicon-dark.png" alt="GitHub Repo" width="40" height="40">
-  </a>
-</div>
+[![Website](https://img.shields.io/badge/Project-Website-87CEEB)](http://hypercap.netlify.app)
+[![paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/pdf/2505.12217)
+[![code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/arya-domain/HyperCap)
+
 
 
 
