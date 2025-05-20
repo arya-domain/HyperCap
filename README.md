@@ -2,11 +2,23 @@
   <img src="https://github.com/user-attachments/assets/aaa3a758-7f94-4eb3-b532-bfcd2c359064" width="400"/>
 </p>
 
-📄 **Paper**: [HyperCap Paper](https://arxiv.org/pdf/2505.12217)
+📄 **Paper**:
+<a href="https://arxiv.org/pdf/2505.12217" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Arxiv-logo.svg" alt="arXiv" width="24" height="24">
+    arXiv:2505.12217
+</a>
 
-🌐 **Website**: [HyperCap Website](http://hypercap.netlify.app)
+🌐 **Website**:
+<a href="http://hypercap.netlify.app" target="_blank">
+    <img src="https://www.netlify.com/img/global/favicons/favicon-32x32.png" alt="Website" width="24" height="24">
+    HyperCap Website
+</a>
 
-💻 **Code & Dataset**: [HyperCap GitHub Repository](https://github.com/arya-domain/HyperCap)
+💻 **Code & Dataset**:
+<a href="https://github.com/arya-domain/HyperCap" target="_blank">
+    <img src="https://github.githubassets.com/favicons/favicon-dark.png" alt="GitHub" width="24" height="24">
+    HyperCap GitHub Repository
+</a>
 
 
 # HyperCap
