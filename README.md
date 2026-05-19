@@ -101,6 +101,6 @@ We utilized the Microsoft COCO Caption Evaluation for evaluating.
 
 - Complete Dataset in `Datasets/` Folder
 - Tutorial captioning code and adapted vision model released (`captioning/vision_model.py` and `Tutorial_Captioning_BLIP.py`)
-- Full codebase, pretrained checkpoints, and complete dataset to be released upon acceptance of the paper
+
 
 ---
