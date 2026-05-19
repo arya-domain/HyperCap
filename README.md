@@ -31,8 +31,7 @@
 
 This repository contains the codebase and model configurations for **HyperCap**
 
-Note: Complete Dataset has been provided for review. Complete training code for captioning and evaluation pipeline will be released in future under an MIT license.
-
+Note: Complete Dataset has been provided. 
 ---
 
 ## Dataset
