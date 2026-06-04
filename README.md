@@ -1,7 +1,9 @@
 # HyperCap: Hyperspectral Land Cover Captioning Dataset for Vision Language Models
 
 <p align="center">
-  <img src="assets/logo.png" width="400"/>
+  <a href="http://hypercap.netlify.app">
+    <img src="assets/logo.png" width="400"/>
+  </a>
 </p>
 
 <div align="center">
@@ -40,7 +42,9 @@ Official repository for **"HyperCap: A Hyperspectral Land-Cover Captioning Datas
 
 ## 📖 Abstract
 
-We introduce **HyperCap**, the first large-scale hyperspectral captioning dataset designed to enhance model performance and effectiveness in remote sensing applications. Unlike traditional hyperspectral imaging (HSI) benchmarks, HyperCap integrates spectral data with pixel-wise textual annotations, enabling deeper semantic understanding. This dataset enhances model performance in tasks like classification and feature extraction, providing a valuable resource for advanced remote sensing applications. HyperCap is constructed from four benchmark datasets — Botswana, Houston 2013, Indian Pines, and Kennedy Space Center — and annotated through a hybrid approach combining automated and manual methods to ensure accuracy and consistency. Empirical evaluations using state-of-the-art encoders and diverse fusion techniques demonstrate significant improvements in classification performance. These results underscore the potential of vision-language learning in HSI and position HyperCap as a foundational dataset for future research in the field.
+<p align="justify">
+  We introduce <strong>HyperCap</strong>, the first large-scale hyperspectral captioning dataset designed to enhance model performance and effectiveness in remote sensing applications. Unlike traditional hyperspectral imaging (HSI) benchmarks, HyperCap integrates spectral data with pixel-wise textual annotations, enabling deeper semantic understanding. This dataset enhances model performance in tasks like classification and feature extraction, providing a valuable resource for advanced remote sensing applications. HyperCap is constructed from four benchmark datasets and annotated through a hybrid approach combining automated and manual methods to ensure accuracy and consistency. Empirical evaluations using state-of-the-art encoders and diverse fusion techniques demonstrate significant improvements in classification performance. These results underscore the potential of vision-language learning in HSI and position HyperCap as a foundational dataset for future research in the field.
+</p>
 
 ---
 
