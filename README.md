@@ -1,8 +1,14 @@
 # HyperCap: Hyperspectral Land Cover Captioning Dataset for Vision Language Models
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/aaa3a758-7f94-4eb3-b532-bfcd2c359064" width="400"/>
+  <img src="assets/logo.png" width="400"/>
 </p>
+
+<div align="center">
+  <h3>IEEE Geoscience and Remote Sensing Magazine (GRSM) 2026</h3>
+  <p><strong><a href="https://www.linkedin.com/in/aryan--das/">Aryan Das</a>*, <a href="https://www.linkedin.com/in/tanishqrachamalla/">Tanishq Rachamalla</a>*, <a href="https://www.iitr.ac.in/~CSE/Pravendra_Singh">Pravendra Singh</a>, <a href="https://www.linkedin.com/in/koushik-biswas-ml/">Koushik Biswas</a>, <a href="https://scholar.google.com/citations?user=7x6GZ1EAAAAJ&hl=en">Vinay Kumar Verma</a>, <a href="https://scholar.google.com/citations?user=vIC06a0AAAAJ&hl=en">Salvador Garcia</a>, <a href="https://scholar.google.com/citations?user=F1UAj8oAAAAJ&hl=en">Antonio Plaza</a>†, <a href="https://swalpa.github.io/">Swalpa Kumar Roy</a>†</strong></p>
+  <p><em>* Equal contribution | † Corresponding authors</em></p>
+</div>
 
 <div align="center">
   <a href="https://ieeexplore.ieee.org/document/11550167/">
@@ -10,6 +16,9 @@
   </a>
   <a href="https://arxiv.org/abs/2505.12217">
     <img src="https://img.shields.io/badge/arXiv-2505.12217-b31b1b.svg?style=for-the-badge" alt="arXiv Paper">
+  </a>
+  <a href="http://hypercap.netlify.app">
+    <img src="https://img.shields.io/badge/Project-Website-87CEEB.svg?style=for-the-badge&logo=netlify" alt="Project Website">
   </a>
   <a href="https://github.com/arya-domain/HyperCap">
     <img src="https://img.shields.io/badge/GitHub-Repository-black.svg?style=for-the-badge&logo=github" alt="GitHub Repository">
@@ -29,39 +38,59 @@ Official repository for **"HyperCap: A Hyperspectral Land-Cover Captioning Datas
 
 ---
 
-## 👥 Authors
-
-**Aryan Das\*, Tanishq Rachamalla\*, Pravendra Singh, Koushik Biswas, Vinay Kumar Verma, Salvador Garcia, Antonio Plaza†, Swalpa Kumar Roy†**
-
-*\* Equal contribution | † Corresponding authors*
-
----
-
-## 📌 Publication Details
-
-- **Journal**: IEEE Geoscience and Remote Sensing Magazine (IEEE GRSM), 2026
-- **DOI**: [10.1109/MGRS.2026.3693613](https://doi.org/10.1109/MGRS.2026.3693613)
-- **arXiv Preprint**: [2505.12217](https://arxiv.org/abs/2505.12217)
-
----
-
 ## 📖 Abstract
 
 We introduce **HyperCap**, the first large-scale hyperspectral captioning dataset designed to enhance model performance and effectiveness in remote sensing applications. Unlike traditional hyperspectral imaging (HSI) benchmarks, HyperCap integrates spectral data with pixel-wise textual annotations, enabling deeper semantic understanding. This dataset enhances model performance in tasks like classification and feature extraction, providing a valuable resource for advanced remote sensing applications. HyperCap is constructed from four benchmark datasets — Botswana, Houston 2013, Indian Pines, and Kennedy Space Center — and annotated through a hybrid approach combining automated and manual methods to ensure accuracy and consistency. Empirical evaluations using state-of-the-art encoders and diverse fusion techniques demonstrate significant improvements in classification performance. These results underscore the potential of vision-language learning in HSI and position HyperCap as a foundational dataset for future research in the field.
 
 ---
 
-## 📊 Dataset Statistics
+## 📊 Dataset Statistics & Class Distributions
 
-HyperCap provides **21,237 pixel-wise, expert-refined captions** spanning **50 land cover classes** across four standard hyperspectral imaging benchmarks:
+HyperCap provides **21,237 pixel-wise, expert-refined captions** spanning **50 land cover classes** across four standard hyperspectral imaging benchmarks.
 
-| Dataset | Total Pixel Captions | Labeled Classes | Bands | Location / Sensor |
-| :--- | :---: | :---: | :---: | :--- |
-| **Indian Pines** | 10,248 | 16 | 220 | Indiana, USA (AVIRIS) |
-| **Kennedy Space Center (KSC)** | 5,211 | 13 | 224 | Florida, USA (AVIRIS) |
-| **Botswana** | 3,248 | 14 | 242 | Okavango Delta (Hyperion) |
-| **Houston 2013** | 2,530 | 15 | 144 | Houston, USA (ITRES CASI-1500) |
-| **Total** | **21,237** | **50** | — | — |
+<p align="center">
+  <table align="center" border="0">
+    <tr>
+      <td align="center"><strong>Indian Pines (10,248 captions)</strong></td>
+      <td align="center"><strong>Kennedy Space Center (5,211 captions)</strong></td>
+    </tr>
+    <tr>
+      <td><img src="assets/indian_pines_distribution.png" width="380"/></td>
+      <td><img src="assets/ksc_distribution.png" width="380"/></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Botswana (3,248 captions)</strong></td>
+      <td align="center"><strong>Houston 2013 (2,530 captions)</strong></td>
+    </tr>
+    <tr>
+      <td><img src="assets/botswana_distribution.png" width="380"/></td>
+      <td><img src="assets/houston13_distribution.png" width="380"/></td>
+    </tr>
+  </table>
+</p>
+
+### Comparison with Prior HSI Benchmarks
+
+Below is a detailed comparison of HyperCap with the original unannotated HSI datasets and the patch-level template-based LDGNet dataset:
+
+| Dataset Name | Total Bands | Total Samples | Number of Classes | Captions | Pixel-Level |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| Indian Pines | 200 | 10,248 | 16 | ✗ | ✗ |
+| Kennedy Space Center | 176 | 5,211 | 13 | ✗ | ✗ |
+| Botswana | 145 | 3,248 | 14 | ✗ | ✗ |
+| Houston13 | 48 | 2,530 | 7 | ✗ | ✗ |
+| **LDGnet (Patch-level Templates)** | | | | | |
+|  Pavia University | 103 | 39,332 | 7 | 14 | ✗ |
+|  Pavia Centre | 102 | 39,355 | 7 | 14 | ✗ |
+|  Houston13 | 48 | 2,530 | 7 | 14 | ✗ |
+|  Houston18 | 48 | 53,200 | 7 | 14 | ✗ |
+|  GID-wh | 4 | 23,339 | 5 | 10 | ✗ |
+|  GID-nc | 4 | 30,812 | 5 | 10 | ✗ |
+| **HyperCap (Ours - Pixel-wise)** | | | | | |
+|  Indian Pines | 200 | 10,248 | 16 | **10,248** | **✓** |
+|  Kennedy Space Center | 176 | 5,211 | 13 | **5,211** | **✓** |
+|  Botswana | 145 | 3,248 | 14 | **3,248** | **✓** |
+|  Houston13 | 48 | 2,530 | 7 | **2,530** | **✓** |
 
 ---
 
@@ -73,6 +102,33 @@ HyperCap provides **21,237 pixel-wise, expert-refined captions** spanning **50 l
 4. **Resilience to Data Scarcity**: Multimodal models using captions maintain above 98% OA even when trained on just **3% of training labels**, while vision-only models drop significantly.
 5. **No Label Leakage**: Captions are semantically additive rather than simply leaking class labels. Text-only models perform 15–29% worse than full multimodal models.
 6. **New Task Benchmarking**: Establishes baseline results for image captioning (GIT leads with BLEU-1: 0.43) and cross-modal retrieval (IR ~62%, TR ~70%).
+
+---
+
+## 📈 Quantitative Benchmarking Results
+
+### 1. Multimodal Classification Performance (Vision-Only vs. Multimodal Fusion)
+
+The table below summarizes the classification gains (Overall Accuracy, OA %) when 3D vision encoders are fused with language adapters (BERT/T5) using optimal fusion strategies:
+
+| Dataset | Vision Backbone | Vision-Only OA (%) | Best Multimodal Fusion | Multimodal OA (%) | Improvement (Δ OA) |
+| :--- | :--- | :---: | :--- | :---: | :---: |
+| **Botswana** | 3D-RCNet <br> DBCTNet <br> 3D-ConvSST <br> FAHM | 86.59 <br> 75.95 <br> 99.95 <br> 99.91 | PWA-T5 <br> PWM-BERT <br> CA-T5 / MHA-T5 <br> CA-T5 / MHA-T5 | **99.86** <br> **99.56** <br> **100.00** <br> **100.00** | **+13.27%** <br> **+23.61%** <br> **+0.05%** <br> **+0.09%** |
+| **Houston 2013** | 3D-RCNet <br> DBCTNet <br> 3D-ConvSST <br> FAHM | 97.45 <br> 94.97 <br> 99.43 <br> 99.37 | MHA-T5 <br> PWM-T5 <br> MHA-T5 <br> MHA-T5 | **99.94** <br> **99.88** <br> **100.00** <br> **99.94** | **+2.49%** <br> **+4.91%** <br> **+0.57%** <br> **+0.57%** |
+| **Indian Pines** | 3D-RCNet <br> DBCTNet <br> 3D-ConvSST <br> FAHM | 82.09 <br> 76.01 <br> 98.80 <br> 98.45 | MHA-BERT <br> PWM-T5 <br> MHA-T5 <br> PWM-T5 | **99.83** <br> **99.37** <br> **99.90** <br> **99.91** | **+17.74%** <br> **+23.36%** <br> **+1.10%** <br> **+1.46%** |
+| **Kennedy Space Center** | 3D-RCNet <br> DBCTNet <br> 3D-ConvSST <br> FAHM | 77.05 <br> 70.50 <br> 71.87 <br> 99.78 | CONCAT-BERT <br> PWA-T5 <br> MHA-T5 <br> MHA-T5 | **96.57** <br> **97.58** <br> **88.95** <br> **100.00** | **+19.52%** <br> **+27.08%** <br> **+17.08%** <br> **+0.22%** |
+
+### 2. Cross-Modal Image-Text Retrieval Results (Recall@1 %)
+
+Retrieval performance benchmarking showing Text-to-Image (Image Retrieval, **IR**) and Image-to-Text (Text Retrieval, **TR**) top-1 accuracy (R@1) across popular Vision-Language frameworks:
+
+| Model | Botswana IR | Botswana TR | Houston13 IR | Houston13 TR | IP IR | IP TR | KSC IR | KSC TR |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **BLIP** | 61.58 | 68.67 | 60.01 | 67.69 | 61.50 | 70.37 | 61.12 | 69.77 |
+| **GIT** | **62.66** | **70.26** | **61.08** | **69.02** | **62.35** | **71.15** | **61.75** | **71.05** |
+| **mPLUG** | **62.96** | **69.92** | 60.60 | 68.31 | **62.45** | **71.25** | 61.46 | 70.96 |
+| **VinVL** | 62.49 | 68.69 | 60.05 | 67.42 | 61.89 | 69.57 | 60.40 | 69.74 |
+| **VisualBERT** | 60.62 | 67.48 | 59.05 | 66.50 | 60.38 | 69.13 | 59.34 | 69.07 |
 
 ---
 
@@ -101,6 +157,12 @@ HyperCap/
 │   └── base.py                    # Base multimodal fusion models
 ├── captioning/
 │   └── vision_model.py            # Adapted FAHM vision model for captioning
+├── assets/
+│   ├── logo.png                   # Repository Logo
+│   ├── botswana_distribution.png  # Botswana class distribution pie chart
+│   ├── houston13_distribution.png # Houston13 class distribution pie chart
+│   ├── indian_pines_distribution.png # Indian Pines class distribution pie chart
+│   └── ksc_distribution.png       # KSC class distribution pie chart
 ├── train.py                       # Training script for Vision-Language Classification
 ├── Tutorial_Captioning_BLIP.py    # Training tutorial for BLIP Captioning model
 └── README.md
